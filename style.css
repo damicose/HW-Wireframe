@@ -5,7 +5,13 @@ body {
     text-align: center;
     font-size: 18px;
     font-family: 'arial', 'helvetica neue', 'helvetica', 'sans-serif';
-    z-index: 1
+    z-index: 1;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both
 }
 
 .ebeb {
@@ -13,42 +19,61 @@ body {
 }
 
 .seveb {
-color: #777777;
-background: #ebebeb
+    color: #777777;
+    background: #ebebeb
+}
+
+.head {
+    margin: 10px;
+    padding: 3px
+}
+
+#nav {
+    margin: 1px 50px;
+    padding: 20px;
+    vertical-align: center
+}
+
+header {
+    margin: 1px 50px;
+    padding: 20px;
+    vertical-align: center;
+}
+
+.para {
+    margin: 10px;
+    height: 31px;
+    text-align: center;
+    padding: 3px
 }
 
 #section {
     width: 495px;
     float: left;
-    width: 50%;
-}
-
-.head {
-    float:left;
-    width:33%;
-height:25px}
-
-header {
-    margin: 1px
-}
-
-.para {
-    margin: 1px;
-    position:;
-    bottom: 0
+    padding: 10px;
+    position: fixed;
+    margin: 0 50px 5px 50px;
 }
 
 #article {
     color: #ebebeb;
     background: #777777;
-    z-index: 3
+    padding: 5px
 }
 
 #aside {
     float: right;
-    width: 50%
+    padding: 5px;
+    width: 315px;
+    margin: 0 50px 5px 50px;
+    line-height: 165px;
+    position: fixed right: 0
 }
 
 footer {
-    bottom: 0
+    position: relative;
+    bottom: -200px;
+    margin: 1px 50px;
+    padding: 20px 20px 20px 350px;
+    text-align: center
 }
