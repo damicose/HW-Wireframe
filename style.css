@@ -2,33 +2,10 @@ body {
     color: #777777;
     background: #777777;
     width: 960px;
+    text-align: center;
     font-size: 18px;
-    font-family: 'arial', 'helvetica neue', 'helvetica', 'sans-serif'
-}
-
-#aside {
-
-}
-
-#article {
-    color: #ebebeb;
-    background: #777777
-}
-
-header {
-    
-}
-
-footer {
-    
-}
-
-#section {
-    width: 495px
-}
-
-#aside {
-    
+    font-family: 'arial', 'helvetica neue', 'helvetica', 'sans-serif';
+    z-index: 1
 }
 
 .ebeb {
@@ -38,4 +15,40 @@ footer {
 .seveb {
 color: #777777;
 background: #ebebeb
+}
+
+#section {
+    width: 495px;
+    float: left;
+    width: 50%;
+}
+
+.head {
+    float:left;
+    width:33%;
+height:25px}
+
+header {
+    margin: 1px
+}
+
+.para {
+    margin: 1px;
+    position:;
+    bottom: 0
+}
+
+#article {
+    color: #ebebeb;
+    background: #777777;
+    z-index: 3
+}
+
+#aside {
+    float: right;
+    width: 50%
+}
+
+footer {
+    bottom: 0
 }
